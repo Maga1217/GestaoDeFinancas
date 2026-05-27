@@ -9,5 +9,5 @@ export type Transaction = {
     amount: number;
     type: TransactionType;
     categoryId: Category["id"];
-    date: Date;
+    date: string;
 };
